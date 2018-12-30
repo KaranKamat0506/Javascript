@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment Operator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <script>
+        var x=10,y=20;
+        document.write("x=" + x);
+        document.write("y=" + y);
+        x=y;
+        document.write("x="+x);
+        //x=20
+        //+=
+        x+=y;// x=x+y
+        //x=20,y=20 x=20+20=40   
+        document.getElementById("demo").innerHTML="x="+x;
+        // x=40; 
+        x-=y//x=x-y
+        /* x=40 y=20 x=40-20 >>x=20        */
+        document.getElementById("demo2").innerHTML="x=" +x;
+        x*=y
+        document.getElementById("demo3").innerHTML="x=" +x;
+        x/=y
+        document.getElementById("demo4").innerHTML="x="+x;
+        x%=y
+        document.getElementById("demo5").innerHTML="x=" +x;
+
+    </script>
+</body>
+</html>
