@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>creating objects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        var car="Fiat";
+        document.getElementById("demo").innerHTML=car;    
+        // Javascript objects
+        var car1={type:"Fiat",model:"500",color:"white"};
+        // Display some data from the objects
+        document.getElementById("demo1").innerHTML=car1.type + " " + car1.color;
+    </script>
+</body>
+</html>
